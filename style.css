@@ -1,0 +1,78 @@
+
+
+
+body{
+	background-color: #16cfd6;
+}
+
+h1{
+	color: #ffffff;
+	font-size: 50px;
+	text-align: center;
+}
+.clock {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #ecda22;
+  font-size: 60px;
+  font-family: 'Audiowide', cursive;
+  letter-spacing: 7px;
+
+
+}
+
+.news{
+	/*width: 700px;*/
+	color: black;
+	font-size:22px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	flex-wrap: wrap;
+
+}
+
+
+.card{
+	height: 250px;
+	width: 700px;
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+	/*border:2px solid red;*/
+	margin:  16px;
+}
+
+
+.card-body{
+	
+	padding-top: 50px;
+}
+
+
+.info1{
+	height: 40px;
+	width: 50px;
+	background-color: black;
+	color: #ffffff;
+
+}
+@media screen and (max-width: 310px) {
+	.clock{
+		font-size: 40px;
+	}
+
+	
+   
+}
+
+
+@media screen and (max-width:  260px){
+	.news{
+		font-size: 15px;
+	}
+
+}
