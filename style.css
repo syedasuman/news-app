@@ -2,22 +2,22 @@
 
 
 body{
-	background-color: #c5c4c5;
+	background-color:#b0ca7d;
 }
 
 h1{
-	color: #ffffff;
-	font-size: 50px;
+	color: #e7e529;
+	font-size: 100px;
 	text-align: center;
 }
 .clock {
   display: flex;
   justify-content: center;
-  text-align: center;
-  color: #ecda22;
-  font-size: 60px;
-  font-family: 'Audiowide', cursive;
-  letter-spacing: 7px;
+  justify-content: start;
+  color: #5c7342;
+  font-size: 40px;
+  font-family: fantasy;
+  letter-spacing: 1px;
 
 
 }
